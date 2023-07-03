@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 15px;
+}
+
+.snake__board {
+    width: 500px;
+    height: 500px;
+    background: #f4f4f4;
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    border: 2px solid #d3d3d3;
+}
+
+.snake__body {
+    background: #808080;
+}
+
+.score {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.food {
+    background: #8BC34A;
+}
